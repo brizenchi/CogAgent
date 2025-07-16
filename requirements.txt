@@ -1,6 +1,10 @@
+# requirements.txt
+
+# --- 我必须锁定的核心包 ---
 transformers==4.47.0
 numpy==1.26.4
 
+# --- 其他包，让 pip 自动选择兼容的版本 ---
 torch
 torchvision
 huggingface-hub
